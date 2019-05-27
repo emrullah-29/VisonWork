@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48320" started-at="2019-05-26T18:18:32Z" finished-at="2019-05-26T18:19:20Z">
+  <suite name="Suite" duration-ms="67470" started-at="2019-05-27T18:15:57Z" finished-at="2019-05-27T18:17:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48320" started-at="2019-05-26T18:18:32Z" finished-at="2019-05-26T18:19:20Z">
+    <test name="Test" duration-ms="67470" started-at="2019-05-27T18:15:57Z" finished-at="2019-05-27T18:17:05Z">
+      <class name="com.systemadmin.CreatinganAccount">
+        <test-method status="PASS" signature="clickTomyAccount()[pri:0, instance:com.systemadmin.CreatinganAccount@4f7d0008]" name="clickTomyAccount" duration-ms="15248" started-at="2019-05-27T18:16:23Z" finished-at="2019-05-27T18:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTomyAccount -->
+      </class> <!-- com.systemadmin.CreatinganAccount -->
       <class name="com.systemadmin.Cheack_Out_Lenses">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.systemadmin.Cheack_Out_Lenses@553f17c]" name="setUp" is-config="true" duration-ms="14927" started-at="2019-05-26T18:18:32Z" finished-at="2019-05-26T18:18:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.systemadmin.Cheack_Out_Lenses@271053e1]" name="setUp" is-config="true" duration-ms="13724" started-at="2019-05-27T18:15:57Z" finished-at="2019-05-27T18:16:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkOut()[pri:0, instance:com.systemadmin.Cheack_Out_Lenses@553f17c]" name="checkOut" duration-ms="32652" started-at="2019-05-26T18:18:47Z" finished-at="2019-05-26T18:19:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.systemadmin.CreatinganAccount@4f7d0008]" name="setUp" is-config="true" duration-ms="12086" started-at="2019-05-27T18:16:11Z" finished-at="2019-05-27T18:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkOut()[pri:0, instance:com.systemadmin.Cheack_Out_Lenses@271053e1]" name="checkOut" duration-ms="25395" started-at="2019-05-27T18:16:38Z" finished-at="2019-05-27T18:17:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOut -->
-        <test-method status="PASS" signature="closeUp()[pri:0, instance:com.systemadmin.Cheack_Out_Lenses@553f17c]" name="closeUp" is-config="true" duration-ms="638" started-at="2019-05-26T18:19:20Z" finished-at="2019-05-26T18:19:20Z">
+        <test-method status="PASS" signature="closeUp()[pri:0, instance:com.systemadmin.Cheack_Out_Lenses@271053e1]" name="closeUp" is-config="true" duration-ms="404" started-at="2019-05-27T18:17:04Z" finished-at="2019-05-27T18:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+        <test-method status="PASS" signature="closeUp()[pri:0, instance:com.systemadmin.CreatinganAccount@4f7d0008]" name="closeUp" is-config="true" duration-ms="515" started-at="2019-05-27T18:17:04Z" finished-at="2019-05-27T18:17:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeUp -->
       </class> <!-- com.systemadmin.Cheack_Out_Lenses -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
